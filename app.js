@@ -10,5 +10,4 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(indexRouter)
 //route - dinh tuyen url
-app.use(indexRouter.route)
 app.listen(3000)
